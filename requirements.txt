@@ -1,0 +1,12 @@
+# GUI
+Gooey==1.0.8.1
+wxPython==4.2.3
+
+# Data / plotting
+pandas==2.2.3
+numpy==2.2.4
+scipy==1.17.0
+matplotlib==3.10.8
+
+# Graph analytics (used by slice_temporal.py)
+networkx==3.5

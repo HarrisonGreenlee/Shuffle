@@ -1,0 +1,9 @@
+language: python
+python:
+  - "3.6"
+install:
+  - pip install cython pytest
+  - python setup.py install
+
+# functionality is tested in the pyranges package
+script: py.test tests/test_ncls.py && cd ~/ && python -c 'import ncls; print(ncls.__version__)'

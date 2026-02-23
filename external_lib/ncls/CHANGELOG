@@ -1,0 +1,86 @@
+# 0.0.67/68 (12.05.23)
+- Remove .c files that should be regenerated (@starsareintherose)
+
+# 0.0.66 (09.01.23)
+- fix more deprecated stuff
+
+# 0.0.65 (27.05.2022)
+- fix depr warning numpy (np.long -> np.int)
+
+# 0.0.64 (11.02.22)
+- fix Cython.Build module import on case-sensitive file systems
+- update legacy build files to work with never versions of Python and gcc.
+
+# 0.0.63 (18.10.21)
+- fix critical error: fix 1024-error for subtract 64 bit
+
+# 0.0.62 (20.09.21)
+- fix critical error: fix 1024-error for subtract
+
+# 0.0.61 (13.09.21)
+- fix critical error: in case of more than 1024 overlaps for on interval only reported 1024 first
+
+# 0.0.58/59/60 (hotfixes) (09.03.21)
+- try to fix type mismatches and make causes more explicit
+
+# 0.0.57 (14.10.20)
+- accept lists/pd.Series in constructor
+
+# 0.0.55-56 (12.10.20)
+- fix build on 32-bit architectures (thanks to nileshpatra)
+
+# 0.0.54 (14.09.20)
+- fix #38 (thanks fireice-uk)
+
+# 0.0.53 (?)
+- add datastructure FNCLS which uses floating point starts and ends
+
+# 0.0.52 (20.02.20)
+- fix missing functions in headers (thanks Igor Gotlibovych)
+
+# 0.0.51 (03.12.19)
+- make setup.py installable distutils if cython isn't installed
+
+# 0.0.50 (11.11.19)
+- fix last_overlaps_both
+
+# 0.0.49 (08.11.19)
+- add last_overlaps_both
+
+# 0).0.47 (30.10.19)
+- fix rare segfault in set_difference_helper
+
+# 0.0.45 (07.10.19)
+- try to fix another windows error
+
+# 0.0.44 (10.09.19)
+- remove sys.time dep. perhaps it now works on windows?
+- add k_find_both
+- fix bug when large ints were used
+
+# 0.0.43 (23.07.19)
+- add coverage-method which finds bp overlap of intervals
+
+# 0.0.42 (16.04.19)
+- add len method
+- return intervals with _ncls.intervals()
+
+# 2018.10.12 (0.0.33)
+- speedups
+
+# 2018.13.11 (0.0.29)
+- add 32-bit methods
+
+# 2018.01.06 (0.0.23)
+- NCLS started segfaulting in travis build for pyranges. Probably due to bad string definition files in travis.
+
+# 2018.05.09 (0.0.16-18)
+- add Cython/C helper code for pyranges
+
+# 2018.05.09 (0.0.15)
+- add faster method has_overlap that returns True/False
+
+# 2018.05.09 (0.0.11)
+- empty NCLS returns [] instead of raising IndexError
+
+-

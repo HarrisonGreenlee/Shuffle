@@ -1,0 +1,7 @@
+metric,I_global,logM_sum,logMmax_sum,N_total,rules,method,combo_dir,seed_base,run_timestamp,window_size_seconds
+mixing_summary,1.0,1020221.8807335661,1020221.8807335661,188964,__IDENTITY__,Unshuffled,out\Unshuffled,42,2026-02-20T01:37:29.401475Z,604800
+mixing_summary,1.0,1020221.8807335661,1020221.8807335661,188964,Full Shuffle,Full Shuffle,out\Full_Shuffle,42,2026-02-20T01:37:43.459952Z,604800
+mixing_summary,0.9986878863899142,1018883.2337185483,1020221.8807335661,188964,Shuffle by Year,Shuffle by Year,out\Shuffle_by_Year,42,2026-02-20T01:39:01.791024Z,604800
+mixing_summary,0.980170050401781,999990.9322596192,1020221.8807335661,188964,Shuffle by Year + Shuffle by Month,Shuffle by Year + Shuffle by Month,out\Shuffle_by_Year_+_Shuffle_by_Month,42,2026-02-20T01:40:15.126561Z,604800
+mixing_summary,0.6480067156582138,661110.630176804,1020221.8807335661,188964,Shuffle by Year + Shuffle by Month + Shuffle by Day of the Week,Shuffle by Year + Shuffle by Month + Shuffle by Day of the Week,out\Shuffle_by_Year_+_Shuffle_by_Month_+_Shuffle_by_Day_of_the_Week,42,2026-02-20T01:41:26.952831Z,604800
+mixing_summary,0.41588815678046054,424298.19748537766,1020221.8807335661,188964,Shuffle by Year + Shuffle by Month + Shuffle by Day of the Week + Shuffle by Time of Day,Shuffle by Year + Shuffle by Month + Shuffle by Day of the Week + Shuffle by Time of Day,out\Shuffle_by_Year_+_Shuffle_by_Month_+_Shuffle_by_Day_of_the_Week_+_Shuffle_by_Time_of_Day,42,2026-02-20T01:42:41.470154Z,604800
